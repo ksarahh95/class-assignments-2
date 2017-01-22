@@ -1,0 +1,1 @@
+There are 9515 lines in the Marra2014_data.fasta file.
