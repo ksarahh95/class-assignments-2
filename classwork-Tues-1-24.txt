@@ -3,3 +3,503 @@
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tues-1-17.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Tuesday-1-24.txt
 ../../../../../Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
+   52  cd ../
+   53  mkdir 01-my-favorite-animals
+   54  cd 01-my-favorite-animals
+   55  git add .
+   56  touch README.txt
+   57  gedit README.txt
+   58  git add README.txt
+   59  git commit -m "README.txt"
+   60  git push -u origin master
+   61  cd ../
+   62  git add 01-my-favorite-animals/dog.jpg
+   63  git commit -m "dog.jpg"
+   64  git push -u origin master
+   65  git add 01-my-favorite-animals/cat.jpeg
+   66  git commit -m "cat.jpeg"
+   67  git push -u origin master
+   68  git add 01-my-favorite-animals/panda.jpg
+   69  git commit -m "panda.jpg"
+   70  git push -u origin master
+   71  git add 01-my-favorite-animals/penguin.jpg
+   72  git commit -m "penguin.jpg"
+   73  git push -u origin master
+   74  git add 01-my-favorite-animals/sloth.jpg
+   75  git commit -m "sloth.jpg"
+   76  git push -u origin master
+   77  cd 01-my-favorite-animals
+   78  touch README.txt
+   79  gedit README.txt
+   80  cd ../
+   81  git add 01-my-favorite-animals/url.txt
+   82  git commit -m "url.txt"
+   83  git push -u origin master
+   84  cd ../
+   85  git remote add origin https://github.com/ksarahh95/My-Favorite-Animals.git
+   86  git init
+   87  git remote add origin https;//github.com/ksarahh95/My-Favorite-Animals.git
+   88  cd eeb-177
+   89  cd 01-my-favorite-animals
+   90  git remote add origin https://github.com/ksarahh95/My-Favorite-Animals.git
+   91  git push -u origin master
+   92  cd Desktop
+   93  cd eeb-177
+   94  cd lab-work
+   95  git add exercise-1/commitrecord.png
+   96  git commit -m "commitrecord.png"
+   97  git add exercise-1/commitlist.jpeg
+   98  git commit -m "commitlist.jpeg"
+   99  git push -u origin master
+  100  ls
+  101  cd exercise-1
+  102  ls
+  103  git add commitlist.jpeg
+  104  git commit -m "commitlist.jpeg"
+  105  git push -u origin master
+  106  cd ../
+  107  git add exercise-1/commitlist.jpeg
+  108  git commit -m "added commitlist.jpeg"
+  109  git config --global user.email ksarahh95@gmail.com
+  110  git config --global user.name "Sarah Kim"
+  111  git commit -m "added commitlist.jpeg"
+  112  git add exercise-1/commitlist.jpeg
+  113  git commit -m "commitlist.jpeg"
+  114  git commit -m "added commitlist.jpeg"
+  115  git push -u origin master
+  116  cd exercise-1
+  117  git remote add origin https://github.com/ksarahh95/EEB177-Assignments.git
+  118  git push -u origin master
+  119  git remote add origin https://github.com/ksarahh95/EEB177-Assignments.git
+  120  git push -u origin master
+  121  cd Desktop
+  122  cd eeb-177
+  123  cd lab-work
+  124  git add exercise-1/commitlist
+  125  git add exercise-1/commitlist.jpeg
+  126  git commit -m "commitlist.jpeg"
+  127  git commit -m "adding commitlist.jpeg"
+  128  cd exercise-1
+  129  git add commitlist.jpeg
+  130  git commit -m "commitlist.jpeg"
+  131  cd Directory
+  132  cd Desktop
+  133  cd eeb-177
+  134  cd class-assignments
+  135  touch hw-1-12-2017
+  136  touch hw-1-12-2017.txt
+  137  gedit hw-1-12-2017.txt
+  138  git add hw-1-12-2017.txt
+  139  git commit -m "hw-1-12-2017.txt"
+  140  git push -u origin master
+  141  cd Desktop
+  142  cd eeb-177
+  143  cd lab-work
+  144  cd ~/Desktop/eeb-177/lab-work
+  145  mkdir exercise-2
+  146  cd exercise-2
+  147  touch README.txt
+  148  gedit README.txt
+  149  cd Desktop
+  150  cd eeb-177
+  151  cd class-assignments
+  152  touch classwork-Thurs-1-17.txt
+  153  git add class-work-Thurs-1-17.txt
+  154  git add classwork-Thurs-1-17.txt
+  155  git commit -m "classwork-Thurs-1-17.txt"
+  156  git push -u origin master
+  157  cd ../
+  158  cd ../
+  159  cd ../
+  160  cd Desktop/eeb-177/CSB/unix/data
+  161  ls
+  162  wc -l Marra2014_data.fasta
+  163  touch ~/Desktop/eeb-177/CSB/unix/sandbox/toremove.txt
+  164  history 10
+  165  git status
+  166  git add classwork-Thurs-1-17.txt
+  167  touch add classwork-Thurs-1-19.txt
+  168  git add classwork-Thurs-1-19.txt
+  169  cd Desktop
+  170  cd eeb-177
+  171  cd homework
+  172  gedit week-2-hw-eeb177.txt
+  173  cut -d ';' -f 2 Pacifici2013_data.csv | tail -n +2 | sort | uniq
+  174  cd ../
+  175  cd ../
+  176  cd ../
+  177  cd Desktop/eeb-177/CSB/unix/data
+  178  cut -d ';' -f 2 Pacifici2013_data.csv | tail -n +2 | sort | uniq
+  179  cd ../
+  180  cd ../
+  181  cd ../
+  182  cd homework
+  183  gedit week-2-hw-eeb177.txt 
+  184  history 20
+  185  cd ../
+  186  cd ../
+  187  cd ../
+  188  cd Desktop/eeb-177/CSB/unix/data
+  189  cut -d ';' -f 2 Pacifici2013_data.csv
+  190  history 20
+  191  cut -d ';' -f 2 Pacifici2013_data.csv | tail -n +2 | sort | uniq
+  192  cd ../
+  193  cd ../
+  194  cd ../
+  195  cd homework
+  196  gedit week-2-hw-eeb177.txt
+  197  cd ../
+  198  cd ../
+  199  cd ../
+  200  cd Desktop/eeb-177/CSB/unix/data
+  201  cd Desktop/eeb-177/CSB/unix/data
+  202  echo 'aaaabbb' | tr 'a' 'b'
+  203  echo '123456789' | tr 1-5 0
+  204  echo 'ACtGGcAaTT' | tr actg ACTG
+  205  eecho 'ACtGGcAaTT' | tr [:lower:] [:upper:]
+  206  echo 'ACtGGcAaTT' | tr [:lower:] [:upper:]
+  207  echo 'aabbccddee' | tr a-c 1-3
+  208  echo 'aaaaabbbb' | tr -d a
+  209  echo 'aaaaabbbb' | tr -s a
+  210  tr ' ' '\t' < inputfile.csv > outputfile.csv
+  211  tr ' ' '\t' <inputfile.csv> outputfile.csv
+  212  tr ' ' '\t' Pacifici2013_data.csv BodyM.csv
+  213  cd ../sandbox/
+  214  tail -n +2 ../data/Pacifici2013_data.csv
+  215  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6
+  216  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' '
+  217  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+  218  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+  219  history 20
+  220  history 30
+  221  gedit BodyM.csv
+  222  cd ../
+  223  gedit week-2-hw-eeb177.txt
+  224  cd ../
+  225  cd ../
+  226  cd homework
+  227  gedit week-2-hw-eeb177.txt
+  228  cd ../
+  229  cd ../
+  230  cd ../
+  231  cd Desktop/eeb-177/CSB/unix/data
+  232  wc -1 BodyM.csv
+  233  cd sandbox
+  234  cd ../sandbox/
+  235  wc -1 BodyM.csv
+  236  wc -1 BodyM.csv
+  237  wc -l BodyM.csv
+  238  grep Vombatidae BodyM.csv
+  239  grep -c Vombatidae BodyM.csv
+  240  grep Bos BodyM.csv
+  241  grep -w Bos BodyM.csv
+  242  grep -i Bos BodyM.csv
+  243  grep -B 2 -A 2 "Gorilla gorilla" BodyM.csv
+  244  grep -n "Gorilla gorilla" BodyM.csv
+  245  grep Gorilla BodyM.csv | grep -v gorilla
+  246  grep -w "Gorilla\|Pan" BodyM.csv
+  247  cd ~/CSB/unix/
+  248  grep -r "Gorilla" data/
+  249  cd ../
+  250  cd ../
+  251  cd unix
+  252  grep -r "Gorilla" data/
+  253  history 20
+  254  history 30
+  255  cd Desktop
+  256  cd eeb-177
+  257  cd homework
+  258  gedit week-2-hw-eeb177.txt
+  259  cd ../
+  260  cd ../
+  261  cd ../
+  262  cd Desktop/eeb-177/CSB/unix/sandbox
+  263  ls -l
+  264  cp ../data/Marra2014_data.fasta ./my file.fasta
+  265  cp ../data/Marra2014_data.fasta ./my_file.fasta
+  266  ls
+  267  cd ../
+  268  less Marra2014_data.fasta
+  269  cd sandbox
+  270  cd ../
+  271  cd data
+  272  less Marra2014_data.fasta
+  273  cd Desktop/eeb-177/CSB/unix/data
+  274  -n 1 my_file.fasta | cut -d ';' -f 1
+  275  -n 1 my_file.fasta | cut -d ';' -f 1 TaxID
+  276  ls
+  277  cd ../
+  278  ls
+  279  cd sandbox
+  280  ls
+  281  head -n 1 my_file.fasta
+  282  head -n 1 my_file.fasta 
+  283   head -n 1 my_file.fasta | cut -d ';' -f 1
+  284  head -n 1 my_file.fasta | cut -d ';' -f 1-4
+  285  cut -d ';' -f 2 my_file.fasta | tail -n +2 | sort | uniq
+  286  history 30
+  287  uniq
+  288  cd Desktop/eeb-177/CSB/unix/data
+  289  cd ../sandbox/
+  290  mkdir temp
+  291  cd Saavedra2013
+  292  cd ../
+  293  cd data
+  294  cd Saavedra2013
+  295  for temp;do  cp Saavedra2013; done
+  296  for datafile in Saavedra2013; do echo temp; done
+  297  for datafile in Saavedra2013; do echo temp; done
+  298  ls
+  299  cp n{1..59}.txt ../../sandbox/temp
+  300  stdin | sed 's/n/edited-n/g'
+  301  sed 's/n/edited-n/g' *.txt
+  302  ls
+  303  history 20
+  304  cd ../
+  305  cd ../
+  306  cd sandbox
+  307  rpl -Rwd -x'.txt' 'n' 'edited-n' temp
+  308  sudo apt install rpl
+  309  rpl -Rwd -x'.txt' 'n' 'edited-n' temp
+  310  cd temp
+  311  ls
+  312  rpl -Rwd -x'.txt' 'n' 'edited-n' temp
+  313  rpl -Rwd -x'.txt' 'n' 'edited-n'
+  314  sed -i 's/n/edited-n/g' *
+  315  ls
+  316  rpl -R n edited-n
+  317  rpl -R n edited-n .
+  318  ls
+  319  rpl -R n{1..59} edited-n .
+  320  rpl -R n{1..2} edited-n .
+  321  git prep -l 'n' | xargs sed -i 's/n/edited-n/g'
+  322  git grep -l n | xargs sed -i s/n/edited-n/g'
+  323  done
+  324  cd ../
+  325  cd Desktop/eeb-177/unix/sandbox
+  326  cd Desktop/eeb-177/unix
+  327  cd Desktop/eeb-177/CSB/unix/sandbox
+  328  cd temp
+  329  ls
+  330  mv n10.txt edited-n.txt
+  331  ls
+  332  mv n11.txt edited-n.txt
+  333  mv n12.txt edited-n.txt
+  334  mv n13.txt edited-n.txt
+  335  rm -rf edited-n.txt
+  336  ls
+  337  rm -rf n{1..59}.txt
+  338  ls
+  339  cp n{1..59}.txt ../../sandbox/temp
+  340  cd ../
+  341  cd ../
+  342  cd data
+  343  cp n{1..59}.txt ../../sandbox/temp
+  344  history 40
+  345  history 100
+  346  cd Saavedra2013
+  347  cp n{1..59}.txt ../../sandbox/temp
+  348  cd ../
+  349  cd ../
+  350  cd sandbox
+  351  cd temp
+  352  ls
+  353  mv n1.txt edited-n1.txt
+  354  mv n2.txt edited-n2.txt
+  355  mv n3.txt edited-n3.txt
+  356  mv n4.txt edited-n4.txt
+  357  mv n5.txt edited-n5.txt
+  358  mv n6.txt edited-n6.txt
+  359  mv n7.txt edited-n7.txt
+  360  mv n8.txt edited-n8.txt
+  361  mv n9.txt edited-n9.txt
+  362  mv n10.txt edited-n10.txt
+  363  mv n11.txt edited-n11.txt
+  364  mv n12.txt edited-n12.txt
+  365  mv n13.txt edited-n13.txt
+  366  mv n14.txt edited-n14.txt
+  367  mv n15.txt edited-n15.txt
+  368  mv n16.txt edited-n16.txt
+  369  mv n17.txt edited-n17.txt
+  370  mv n18.txt edited-n18.txt
+  371  mv n19.txt edited-n19.txt
+  372  mv n20.txt edited-n20.txt
+  373  mv n21.txt edited-n21.txt
+  374  mv n22.txt edited-n22.txt
+  375  mv n23.txt edited-n23.txt
+  376  mv n24.txt edited-n24.txt
+  377  mv n25.txt edited-n25.txt
+  378  mv n26.txt edited-n26.txt
+  379  mv n27.txt edited-n27.txt
+  380  mv n28.txt edited-n28.txt
+  381  mv n29.txt edited-n29.txt
+  382  mv n30.txt edited-n30.txt
+  383  mv n31.txt edited-n31.txt
+  384  mv n32.txt edited-n32.txt
+  385  mv n33.txt edited-n33.txt
+  386  mv n34.txt edited-n34.txt
+  387  mv n35.txt edited-n35.txt
+  388  mv n36.txt edited-n36.txt
+  389  mv n37.txt edited-n37.txt
+  390  mv n38.txt edited-n38.txt
+  391  mv n39.txt edited-n39.txt
+  392  mv n40.txt edited-n40.txt
+  393  mv n41.txt edited-n41.txt
+  394  mv n42.txt edited-n42.txt
+  395  mv n43.txt edited-n43.txt
+  396  mv n44.txt edited-n44.txt
+  397  mv n45.txt edited-n45.txt
+  398  mv n46.txt edited-n46.txt
+  399  mv n47.txt edited-n47.txt
+  400  mv n48.txt edited-n48.txt
+  401  mv n49.txt edited-n49.txt
+  402  mv n50.txt edited-n50.txt
+  403  mv n51.txt edited-n51.txt
+  404  mv n52.txt edited-n52.txt
+  405  mv n53.txt edited-n53.txt
+  406  mv n54.txt edited-n54.txt
+  407  my n55.txt edited-n55.txt
+  408  mv n55.txt edited-n55.txt
+  409  mv n56.txt edited-n56.txt
+  410  mv n57.txt edited-n57.txt
+  411  mv n58.txt edited-n58.txt
+  412  my n59.txt edited-n59.txt
+  413  mv n59.txt edited-n59.txt
+  414  ls
+  415  cd ../
+  416  cd ../
+  417  cd data
+  418  cd ../
+  419  cd ../
+  420  cd ../
+  421  cd homework
+  422  gedit week-2-hw-eeb177.txt
+  423  git add week-2-hw-eeb177.txt
+  424  git commit -m "week-2-hw-eeb177.txt"
+  425  git push -u origin master
+  426  git init
+  427  git add week-2-hw-eeb177.txt
+  428  git commit -m "week-2-hw-eeb177.txt"
+  429  git remote add origin https://github.com/ksarahh95/Homework.git
+  430  git commit -m "week-2-hw-eeb177.txt"
+  431  git push -u origin master
+  432  cd ../
+  433  cd ../
+  434  cd eeb-177/lab-work/exercise-2
+  435  ls
+  436  gedit regex_hw.txt
+  437  git add regex_hw.txt
+  438  git commit -m "regex_hw.txt"
+  439  git push -u origin master
+  440  ls
+  441  mv 2017-01-22-124611_1920x925_scrot.png Question3.png
+  442  ls
+  443  mv 2017-01-22-125633_1920x925_scrot.png Question5.png
+  444  ls
+  445  cd Desktop
+  446  ls
+  447  cd ../
+  448  mv Question3.png Desktop
+  449  mv Question5.png Desktop
+  450  cd Desktop
+  451  mv Question3.png eeb-177
+  452  mv Question5.png eeb-177
+  453  cd eeb-177
+  454  ls
+  455  mv Question3.png homework
+  456  mv Question5.png homework
+  457  cd homework
+  458  ls
+  459  git add Question3.png
+  460  git commit -m "Question3.png"
+  461  git push -u origin master
+  462  git add Question5.png
+  463  git commit -m "Question5.png"
+  464  git push -u origin master
+  465  cd Directory
+  466  cd class-assignments
+  467  cd eeb-177
+  468  cd Desktop
+  469  cd class-assignments
+  470  cd eeb-177
+  471  cd class-assignments
+  472  touch classwork-Tuesday-1-24.txt
+  473  cd ../
+  474  cd ../
+  475  cd ../
+  476  cd Desktop/CSB/unix/sandbox
+  477  cd Desktop/CSB/unix/data
+  478  cd Desktop/eeb-177/CSB/unix/sandbox
+  479  wget http://tinyurl.com/cep-taxa -0 cep-taxa.txt
+  480  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  481  cd ../
+  482  cd ../
+  483  cd ../
+  484  cd ../
+  485  cd class-assignments
+  486  cd eeb-177
+  487  cd class-assignments
+  488  git add classwork-Tuesday-1-24.txt
+  489  git commit -m "classwork-Tuesday-1-24.txt"
+  490  git push -u origin master
+  491  cd ../
+  492  cd ../
+  493  cd ../
+  494  cd Desktop/eeb-177/CSB/unix/sanddbox
+  495  cd Desktop/eeb-177/CSB/unix/sandbox
+  496  man grep
+  497  grep Orchidacea cep-taxa.txt
+  498  grep Orchidacea
+  499  cd Desktop/eeb-177/CSB/unix/sandbox
+  500  man grep
+  501  grep Orchidacea cep-taxa.txt
+  502  man grep
+  503  grep -c Orchidacea cep-taxa.txt
+  504  man grep
+  505  grep -w Falcons cep-taxa.txt
+  506  grep falcon cep-taxa.txt
+  507  grep Falcon cep-taxa.txt
+  508  grep -i ara cep-taxa.txt
+  509  grep -B 3 -i -w cebus cep-taxa.txt
+  510  grep -n -i iguanas cep-taxa.txt
+  511  grep -n -i iguana cep-taxa.txt
+  512  grep -n -i -w iguana cep-taxa.txt
+  513  grep -v -c -i -w ara cep-taxa.txt
+  514  grep -v -n -i -w ara cep-taxa.txt
+  515  find .*
+  516  ls
+  517  ls -l
+  518  ls -la
+  519  find .*
+  520  ls ../
+  521  find -name "30.txt" ../data/
+  522  find -name "n30.txt" ../data/
+  523  find ../data/ -name "n30.txt"
+  524  find ../../../
+  525  find ../../../../../
+  526  find ../../../../../Desktop/ -iname "*classwork*"
+  527  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  528  cd ../
+  529  cd ../
+  530  cd ../
+  531  cd class-assignments
+  532  ls
+  533  gedit classwork-Tues-1-24.txt 
+  534  git add classwork-Tues-1-24.txt
+  535  git commit -m "classwork-Tues-1-24.txt"
+  536  git push -u origin master
+  537  rm -rf classwork-Tuesday-1-24.txt
+  538  ls
+  539  git rm classwork-Tuesday-1-24.txt
+  540  ls
+  541  git commit -m "classwork-Tuesday-1-24.txt"
+  542  git push -u origin master
+  543  cd ../
+  544  cd unix/sandbox
+  545  cd CSB/unix/sandbox
+  546  touch permissions.txt
+  547  ls -l
+  548  chmod u=rwx permissions.txt
+  549  ls -l
+  550  history
+  551  history >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
