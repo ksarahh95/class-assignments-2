@@ -1,0 +1,29 @@
+Absolute vs. Relative Paths
+1. No: . refers to the current directory.
+2. No: / stands for root directory.
+3. No: The home directory is /Users/amanda.
+4. No: this goes up 2 levels --> ends in /Users.
+5. Yes: ~ refers to the user's home directory --> /Users/amanda.
+6. No: this navigates into directory home in current directory if it exists.
+7. Yes: it is correct, but complicated.
+8. Yes: shortcut to return to home directory.
+9. Yes: it goes up one level.
+
+Relative Path Resolution
+1. No: there is directory backup in /Users.
+2. No: this is content of Users/thing/backup, but it asks for one level further up.
+3. No: did not specify -F to display / at end of directory names.
+4. Yes: ../backup means /Users/backup.
+
+ls Reading Comprehension
+1. No: pwd is not directory name.
+2. Yes: ls without directory argument lists directories/files in current directory.
+3. Yes: it uses the absolute path explicitly.
+4. Correct
+
+Exploring More ls Arguments
+-l arguments makes ls use long listing format that shows additonal information like file size and last modification time not ony the directory/file names.
+-h arguments make the file size readable by humans.
+
+Listing Recursively and By Time
+The directories are alphabetically listed at every level. The directories/files in every directory are sorted in terms of last modification time.
