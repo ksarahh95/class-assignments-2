@@ -1,0 +1,14 @@
+
+# curl -s "https://fishbase.us/summary/SpeciesSummary.php?ID=[10-20]" | grep Fisheries: | cut -d ';' -f 1
+#gets species from 10-20, and extract fisheries status
+#delimiter cut by semicolin, take the first column to get "fisheries:status"
+
+					Fisheries: commercial
+					Fisheries: minor commercial				</span>
+					Fisheries: highly commercial
+					Fisheries: highly commercial
+					Fisheries: minor commercial
+					Fisheries: commercial
+					Fisheries: commercial
+					Fisheries: minor commercial
+Fisheries: minor commercial </span>
