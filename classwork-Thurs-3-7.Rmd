@@ -1,0 +1,48 @@
+---
+title: "classwork-Thurs-3-7"
+output: html_notebook
+---
+```{r}
+install.packages("paleotree")
+install.packages("paleobioDB")
+library(paleotree)
+library(paleobioDB)
+data(graptPBDB) #get species sorted occurrences
+head(graptOccPBDB)
+
+
+```
+```{r}
+occSpecies<-taxonSortPBDBocc(graptOccPBDB, rank = "species") #plot species occurrence
+plotOccData(occSpecies, groupLabel = "Species") 
+#each color represents different species/shows ranges. Each fossil is found in stratographic layer and there is uncertainty associated with age of layer. Shows minimum/maximum age - we took average age of each fossil of uncertainty associated with age of each fossil and with average we found youngest and oldest and found range.
+
+```
+```{r}
+#convert occurrence data to "timelist" format
+graptTimeSpecies<-occData2timeList(occList=occSpecies)#looking at diversity through time for various ranks (# of species around time)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+head(graptTimeSpecies)
+head(occSpecies)
+
+# pdf(file "dtt.pdf") redirects plots to output file pdf
+#taxicDivDisc(graptTimeSpecies) #plots this to output file
+#dev.off() #tells them to stop plotting to output file and back to Rstudio
+
+
+#function makes curve and counts number of species for each time interval
+
+```
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML f
