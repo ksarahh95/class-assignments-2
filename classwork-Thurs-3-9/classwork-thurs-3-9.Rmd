@@ -1,0 +1,40 @@
+---
+title: "classwork-Thurs-3-9"
+author: "Sarah Kim"
+date: "March 9, 2017"
+output: html_document
+---
+
+```{r}
+install.packages("paleotree")
+install.packages("paleobioDB")
+library(paleotree)
+library(paleobioDB)
+data(graptPBDB) #get species sorted occurrences
+head(graptOccPBDB)
+```
+```{r}
+occSpecies<-taxonSortPBDBocc(graptOccPBDB, rank = "species") #plot species occurrence
+plotOccData(occSpecies, groupLabel = "Species") 
+#each color represents different species/shows ranges. Each fossil is found in stratographic layer and there is uncertainty associated with age of layer. Shows minimum/maximum age - we took average age of each fossil of uncertainty associated with age of each fossil and with average we found youngest and oldest and found range.
+```
+
+```{r}
+#convert occurrence data to "timelist" format
+graptTimeSpecies<-occData2timeList(occList=occSpecies)#looking at diversity through time for various ranks (# of species around time)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+head(graptTimeSpecies)
+head(occSpecies)
+
+# pdf(file "dtt.pdf") redirects plots to output file pdf
+#taxicDivDisc(graptTimeSpecies) #plots this to output file
+#dev.off() #tells them to stop plotting to output file and back to Rstudio
+
+
+#function makes curve and counts number of species for each time interval
+```
+```{r}
+
+```
+
